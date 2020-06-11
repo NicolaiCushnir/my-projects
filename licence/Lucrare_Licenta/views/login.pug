@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title Logare
+		include includes/head.pug
+	body
+		.container
+			include includes/navbar.pug
+			.row.justify-content-lg-center.justify-content-md-center(style="margin-top: 100px;")
+				.col-lg-4.col-md-4.col-sm-12
+					form(action="/auth" method="post")
+						.input-group.input-group-lg(style="padding: 10px 0;")
+							span.input-group-addon#sizing-sddon1(style="width: 70px;") @
+							input.form-control(type="text" placeholder="Username" aria-describedby="sizing-addon1" name="log")
+						.input-group.input-group-lg(style="padding: 10px 0;")
+							span.input-group-addon#sizing-sddon2(style="width: 70px;") *
+							input.form-control(type="password" placeholder="Password" aria-describedby="sizing-addon2" name="pas")
+						button.btn.btn-info.btn-lg.btn-block(type="submit" style="margin-top: 10px;") Login
+		include includes/scripts.pug

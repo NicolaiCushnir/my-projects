@@ -1,0 +1,27 @@
+.row
+	.col-lg-12.col-md-12.col-sm-12
+		nav.navbar.navbar-toggleable-md.navbar-light
+			button(class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+				span.navbar-toggler-icon
+			#navbarSupportedContent.collapse.navbar-collapse
+				ul.navbar-nav.mr-auto(style="padding: 10px 0;")
+					li.nav-item
+						a(class="navbar-brand" href="/")
+							img(src="img/icons/ulim.jpg" height="35")
+					li.nav-item
+						a(class="nav-link" href="/teachers") Profesori
+					li.nav-item
+						a(class="nav-link" href="/students") Studenti
+					li.nav-item
+						a(class="nav-link" href="/courses") Cursuri
+				span.navbar-text(style="padding: 10px 0;")
+					if user
+						ul.navbar-nav.mr-auto(style="padding: 10px 0;")
+							li.nav-item
+								a(class="nav-link" href="/administrare") Administrare
+							li.nav-item
+								a(class="nav-link" href="/logout") Logout
+					else
+						ul.navbar-nav.mr-auto(style="padding: 10px 0;")
+							li.nav-item
+								a(class="nav-link" href="/login") Login

@@ -1,0 +1,96 @@
+
+body {
+  background: #ddf;
+}
+
+.container {
+  background: auto;
+  width: 800px;
+  margin: auto;
+  height: 270px;
+}
+
+.align-button {
+  float: left;
+}
+
+button {
+  font-size: 16px;
+}
+
+.align-block {
+  background: rgb(50, 120, 250);
+  font-size: 24px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.k {
+	background: auto;
+	font-family: verdana;
+	font-size: 34px;
+	color: white;
+	position: relative;
+	top: 4px;
+	padding: 0px 5px 2px 5px;
+}
+
+.cript {
+	font-family: verdana;
+	font-size: 21px;
+	cursor: pointer;
+	background: lightblue;
+	color: black;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.decript {
+	background: lightblue;
+	font-family: verdana;
+	font-size: 21px;
+	cursor: pointer;
+	color: black;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.text {
+	background: white;
+	color: ;
+	width: 786px;
+	height: 200px;
+	font-family: verdana;
+	font-size: 21px;
+	padding-top: 5px;
+	padding-left: 10px;
+	position: relative;
+	top: -24px;
+}
+
+.show {
+	background: rgb(14, 132, 36);
+	color: white;
+	width: 800px;
+	height: 100px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 33px;
+}
+
+textarea {
+  border: 1px solid #ccc;
+}
+
+#cheia {
+	background: rgb(0, 100, 250);
+	color: white;
+	padding: 8px 0px 10px 15px;
+	font-size: 21px;
+	font-family: Verdana;
+	border: 1px solid #000;
+	position: relative;
+	top: -1px;
+	cursor: pointer;
+}

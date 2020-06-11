@@ -1,0 +1,120 @@
+doctype html
+html
+	head
+		title Administrare
+		include includes/head.pug
+	body
+		.container
+			include includes/navbar.pug
+			.row.justify-content-lg-center.justify-content-md-center
+				.col-lg-4.col-md-4.col-sm-12
+					button.btn.btn-primary.btn-lg.btn-block(type="button" data-toggle="modal" data-target="#profModal" style="margin-top: 20px;") Adauga profesori
+					.modal.fade#profModal(tabindex="-1" role="dialog" aria-labelledby="profTitle" aria-hidden="true")
+						.modal-dialog(role="document")
+							.modal-content
+								form(action="/saveprof" method="post")
+									.modal-header
+										h5.modal-title#profTitle Adauga un profesor
+										button.close(type="button" data-dismiss="modal" aria-label="Close")
+											span(aria-hidden="true") &times;
+									.modal-body
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#imgaddon(style="width: 100px;") Img
+											input.form-control(type="text" placeholder="Image URL" aria-describedby="imgaddon" name="profImage")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#nameaddon(style="width: 100px;") Nume
+											input.form-control(type="text" placeholder="Name" aria-describedby="nameaddon" name="profName")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#lnameaddon(style="width: 100px;") Pren
+											input.form-control(type="text" placeholder="Prenume" aria-describedby="lnameaddon" name="profLname")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#gradaddon(style="width: 100px;") Grad
+											input.form-control(type="text" placeholder="Grad" aria-describedby="gradaddon" name="profGrad")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#usernameaddon(style="width: 100px;") @user
+											input.form-control(type="text" placeholder="Username" aria-describedby="usernameaddon" name="profUsername")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#linkaddon(style="width: 100px;") Link
+											input.form-control(type="text" placeholder="Link" aria-describedby="linkaddon" name="profLink")
+									.modal-footer
+										button.btn.btn-secondary(type="button" data-dismiss="modal") Inchide
+										button.btn.btn-primary(type="submit") Salveaza
+
+					button.btn.btn-primary.btn-lg.btn-block(type="button" data-toggle="modal" data-target="#grupaModal" style="margin-top: 20px;") Adauga grupa
+					.modal.fade#grupaModal(tabindex="-1" role="dialog" aria-labelledby="grupaTitle" aria-hidden="true")
+						.modal-dialog(role="document")
+							.modal-content
+								form(action="/savegrupa" method="post")
+									.modal-header
+										h5.modal-title#grupaTitle Adauga o noua grupa
+										button.close(type="button" data-dismiss="modal" aria-label="Close")
+											span(aria-hidden="true") &times;
+									.modal-body
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#nameaddon(style="width: 100px;") Nume
+											input.form-control(type="text" placeholder="Numele grupei" aria-describedby="nameaddon" name="grupname")
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#profiaddon(style="width: 100px;") Prof.
+											input.form-control(type="text" placeholder="Nume, Nume, Nume, Nume, ..." aria-describedby="profiaddon" name="grupprofi")
+									.modal-footer
+										button.btn.btn-secondary(type="button" data-dismiss="modal") Inchide
+										button.btn.btn-primary(type="submit") Salveaza
+
+					button.btn.btn-primary.btn-lg.btn-block(type="button" data-toggle="modal" data-target="#studentModal" style="margin-top: 20px;") Adauga student
+					.modal.fade#studentModal(tabindex="-1" role="dialog" aria-labelledby="studentTitle" aria-hidden="true")
+						.modal-dialog(role="document")
+							.modal-content
+								form(action="/savestudent" method="post")
+									.modal-header
+										h5.modal-title#studentTitle Adauga un student
+										button.close(type="button" data-dismiss="modal" aria-label="Close")
+											span(aria-hidden="true") &times;
+									.modal-body
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#snameaddon(style="width: 100px;") Nume
+											input.form-control(type="text" placeholder="Nume" aria-describedby="snameaddon" name="studname")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#slnameaddon(style="width: 100px;") Pren.
+											input.form-control(type="text" placeholder="Prenume" aria-describedby="slnameaddon" name="studlname")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#studgraddon(style="width: 100px;") Grupa
+											input.form-control(type="text" placeholder="Grupa" aria-describedby="studgraddon" name="studgrup")
+									.modal-footer
+										button.btn.btn-secondary(type="button" data-dismiss="modal") Inchide
+										button.btn.btn-primary(type="submit") Salveaza
+
+					button.btn.btn-primary.btn-lg.btn-block(type="button" data-toggle="modal" data-target="#cursModal" style="margin-top: 20px;") Adauga curs
+					.modal.fade#cursModal(tabindex="-1" role="dialog" aria-labelledby="cursTitle" aria-hidden="true")
+						.modal-dialog(role="document")
+							.modal-content
+								form(action="/savecurs" method="post")
+									.modal-header
+										h5.modal-title#cursTitle Adauga un curs
+										button.close(type="button" data-dismiss="modal" aria-label="Close")
+											span(aria-hidden="true") &times;
+									.modal-body
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#cnameaddon(style="width: 100px;") Nume
+											input.form-control(type="text" placeholder="Numele cursului" aria-describedby="cnameaddon" name="cursname")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#cprofiaddon(style="width: 100px;") Prof.
+											input.form-control(type="text" placeholder="Profesor (Nume)" aria-describedby="cprofiaddon" name="cursprof")
+
+										.input-group.input-group-lg(style="padding: 10px 0;")
+											span.input-group-addon#cgrupeaddon(style="width: 100px;") Grupe
+											input.form-control(type="text" placeholder="Grupa, Grupa, Grupa, ..." aria-describedby="cgrupeaddon" name="cursgrupe")
+									.modal-footer
+										button.btn.btn-secondary(type="button" data-dismiss="modal") Inchide
+										button.btn.btn-primary(type="submit") Salveaza
+
+					a.btn.btn-danger.btn-lg.btn-block(href="/clearbase" style="margin-top: 20px;") Eliminati baza de date
+		include includes/scripts.pug
+

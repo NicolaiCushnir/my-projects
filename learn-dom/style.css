@@ -1,0 +1,26 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: rgb(230, 230, 230);
+}
+
+.left-block {
+	background-color: rgb(255, 255, 255);
+	width: 20%;
+	height: 90%;
+	min-height: 540px;
+	margin: 20px 10px 20px 20px;
+	float: left;
+}
+
+.content {
+	background-color: rgb(255, 255, 255);
+	width: 75%;
+	height: 60%;
+	min-height: 540px;
+	margin: 20px 20px 20px 10px;
+	float: left;
+}

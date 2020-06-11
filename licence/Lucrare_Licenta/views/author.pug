@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title Autor
+		include includes/head.pug
+	body
+		.container
+			include includes/navbar.pug
+			.row(style="padding: 100px 0")
+				.col-lg-12.col-md-12.col-sm-12
+					.card
+						img.card-img-top(src="img/pug.jpg" width="100%")
+						.card-block
+							p.card-text Some quick example text to build on the card title and make up the bulk of the card's content
+		include includes/scripts.pug

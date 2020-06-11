@@ -1,0 +1,11 @@
+:root {
+	--the-color-block: #222;
+	--main-background-color: rgb(255, 255, 255);
+}
+
+.footer {
+	background-color: var(--the-color-block);
+	width: 800px;
+	height: 50px;
+	margin: auto;
+}

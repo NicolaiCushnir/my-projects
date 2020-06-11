@@ -1,0 +1,40 @@
+doctype html
+html
+	head
+		title Courses
+		include includes/head.pug
+	body
+		.container
+			include includes/navbar.pug
+			.row
+				.col-lg-12.col-md-12.col-sm-12(style="padding: 100px 0;")
+					table.table.table-striped.table-bordered
+						thead
+							tr
+								th #
+								th Denumire
+								th Profesor
+								th Grupe
+						tbody
+							- var n = 1
+							each c in courses
+								- var pr = false
+								tr
+									th(scope="row")= n
+									td= c.name
+									each p in teachers
+										if c.profesor === p.name
+											- pr = true
+											td
+												a(href= p.link)= p.name + " " + p.lastname
+											- break;
+									if !pr
+										td -
+									else
+										- pr = false
+									- var gr = ""
+									each g in c.grupe
+										- gr += g + ", "
+									td= gr.substring(0, gr.length-2)
+								- n++
+		include includes/scripts.pug

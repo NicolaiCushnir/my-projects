@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title Profesori
+		include includes/head.pug
+	body
+		.container
+			include includes/navbar.pug
+			.row
+				div(class="col-lg-12 col-md-12 col-sm-12" style="padding: 100px 0;")
+					table.table.table-striped.table-bordered
+						thead
+							tr
+								th #
+								th Nume
+								th Prenume
+								th Functie
+								th Username
+						tbody
+							- var id = 1
+							each val in teachers
+								tr
+									th(scope="row")= id
+									td= val.name
+									td= val.lastname
+									td= val.rank
+									td
+										a(href= val.link)= val.username
+									- id++
+		include includes/scripts.pug
