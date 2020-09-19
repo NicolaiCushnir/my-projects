@@ -23,7 +23,6 @@ app.use('/', router, );
 app.use('/', connect_db);
 
 /*Begin R1 */
-
 function R1() {
 	// write browser :
 	// http://localhost:5555/search/bine/50
@@ -45,7 +44,6 @@ function R1() {
 }
 
 R1();
-
 /* End R1 */
 
 /* Begin R2 */

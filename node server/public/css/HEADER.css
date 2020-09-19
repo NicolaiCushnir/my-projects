@@ -20,6 +20,7 @@ body {
 	background: #fff;
 	width: 100%;
 	height: 50px;
+	margin: 0px 0px 10px 0px;
 }
 
 .left-header {
@@ -99,3 +100,10 @@ body {
 #lessons {
 	padding-left: 20px;
 }
+
+#name-of-the-site {
+	font-size: 14px;
+	cursor: pointer;
+}
+
+

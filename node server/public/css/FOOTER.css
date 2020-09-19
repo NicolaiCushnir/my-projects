@@ -9,3 +9,12 @@
 	height: 50px;
 	margin: auto;
 }
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
