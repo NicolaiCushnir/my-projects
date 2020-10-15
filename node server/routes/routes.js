@@ -61,5 +61,7 @@ router.get('/HELP', function(req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/HELP.html'));
 });
 
+// router.get('/', (req, res) => res.download('./file.pdf'))
+
 module.exports = router;
 

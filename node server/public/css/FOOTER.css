@@ -1,7 +1,3 @@
-:root {
-	--the-color-block: #222;
-	--main-background-color: rgb(255, 255, 255);
-}
 
 .footer {
 	background-color: var(--the-color-block);
@@ -11,10 +7,15 @@
 }
 
 a {
-	color: green;
+	width: 200px;
+	color: var(--color-text);
 	text-decoration: none;
 }
 
+li {
+	
+}
+
 a:hover {
-	color: red;
+	color: ;
 }

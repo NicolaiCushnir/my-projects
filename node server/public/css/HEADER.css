@@ -1,5 +1,10 @@
 :root {
-	--main-background-image: url("../img/tsukiko-tsutsukakushi-hentai-ouji-to-warawanai-neko-cute-kaw.jpg");
+	--main-background-image: url("../img/tsukiko-neko-cute_kaw.jpg");
+	--grandstander: 'Grandstander', cursive;
+	--main-background: rgb(80, 140, 80);
+	--background-middle-button: red; 
+	--color-text: yellow;
+	--the-color-block: #222;
 }
 
 * {
@@ -8,7 +13,7 @@
 }
 
 body {
-	background-image: ;
+	background-image: var(--main-background-image);
 	background-color: rgb(250, 250, 250);
 	background-repeat: no-repeat;
   	background-position: top;
@@ -17,7 +22,7 @@ body {
 }
 
 .header {
-	background: #fff;
+	background-color: var(--main-background);
 	width: 100%;
 	height: 50px;
 	margin: 0px 0px 10px 0px;
@@ -30,20 +35,49 @@ body {
 }
 
 .align-left-header {
+	font-family: var(--grandstander);
+	text-shadow: 1px 1px #000;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding: 14px 0px 0px 15px;
+	color: var(--color-text);
 }
 
 #name-of-the-site a {
-	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+}
+
+#lessons {
+	cursor: pointer;
+	background-color: var(--main-background);
+	width: 140px;
+	position: relative;
+	top: 40px;
+	left: 35px;
+}
+
+ul {
+	list-style: none;
+}
+
+.lesson-x {
+	font-family: var(--grandstander);
 	font-size: 21px;
-	color: rgb(0, 170, 0);
+	padding: 2px 0px 2px 0px;
+}
+
+.lesson-x:hover {
+	background-color: rgb(255, 210, 110);
+}
+
+.align-lesson-x {
+	padding: 0px 0px 0px 5px;
 }
 
 .middle-header {
+	background-color: var(--main-background);
 	float: left;
 	width: 800px;
 	height: 100%;
@@ -68,7 +102,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
-	color: #000;
+	color: var(--color-text);
 	padding: 4px 10px 5px 10px;
 	border: 1px solid #0f0;
 }
@@ -76,33 +110,29 @@ body {
 .menu-middle-header {
 	width: 100px;
 	height: 20px;
-
 }
 
 .menu-middle-header a:hover {
-	background: lightgreen;
-	color: white;
+	background: var(--color-text);
+	color: purple;
 	border: 1px solid green;
 }
 
 #sign-in-color a {
-	color: white;
+	background-color: var(--background-middle-button);
+	color: var(--main-background);
 	border: 1px solid black;
-	background: green;
 }
 
 .right-header {
+	background-color: var(--main-background);
 	float: right;
 	width: calc(50% - 400px);
 	height: 100%;
 }
 
-#lessons {
-	padding-left: 20px;
-}
-
 #name-of-the-site {
-	font-size: 14px;
+	font-size: 24px;
 	cursor: pointer;
 }
 
