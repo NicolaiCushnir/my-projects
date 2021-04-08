@@ -3,7 +3,7 @@
 	--grandstander: 'Grandstander', cursive;
 	--main-background: rgb(255, 255, 255);
 	--sign-up-button: red; 
-	--name-of-the-site: rgb(100, 210, 100);
+	--name-of-the-site: rgb(0, 210, 0);
 	--the-color-block: #222;
 	--color-text-button: blue;
 	--f_font-family: 'Inconsolata', monospace;
@@ -43,6 +43,7 @@ body {
 
 #name-of-the-site a {
 	text-decoration: none;
+	float: left;
 }
 
 #left-chapters {
@@ -50,8 +51,8 @@ body {
 	background: white;
 	width: 240px;
 	position: relative;
-	top: 22px;
-	left: 20px;
+	top: 42px;
+	left: 10px;
 }
 
 ul {
@@ -59,7 +60,7 @@ ul {
 }
 
 .chapter-x {
-	background: rgb(240, 240, 240);
+	background: rgb(240, 0, 240);
 	font-family: var(--grandstander);
 	font-size: 28px;
 	line-height: 30px;

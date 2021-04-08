@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const path = require('path'); 
+const fs = require('fs');
 
 router.get('/', function (req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/MAIN.html'));
@@ -61,7 +62,15 @@ router.get('/HELP', function(req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/HELP.html'));
 });
 
+router.get('/CRUD', function(req, res){
+	res.sendFile(path.join(__dirname, '../public', '/html/CRUD.html'));
+});
+
 // router.get('/', (req, res) => res.download('./file.pdf'))
+
+// router.post('/', function(req, res){
+//    fs.
+// });
 
 module.exports = router;
 

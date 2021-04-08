@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+		<script>
+		function prettyPrint() {
+
+		    var ugly = document.getElementById('myTextArea').value;
+		    var obj = JSON.parse(ugly);
+		    var pretty = JSON.stringify(obj, undefined, 4);
+		    document.getElementById('myTextArea').value = pretty;
+		}
+
+		// prettyPrint()
+	</script>
+</head>
+<body>
+	<h1 style="text-align: center; color: green;">Bellow is CRUD page !</h1>
+
+	<textarea id="myTextArea" cols=50 rows=10></textarea>
+	<button onclick="prettyPrint()">Pretty Print</button>
+
+
+</body>
+</html>

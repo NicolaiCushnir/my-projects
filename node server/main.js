@@ -1,5 +1,4 @@
 	
-// как закашыровать эти модули ?
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -13,10 +12,17 @@ const readline = require('readline');
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const pug = require('pug');
+const http = require('http');
+const learn_readline = require('./tests/learn_readline.js');
+
 // const hash require('pbkdf2-password')();
 // const session = require('express-session');
 // const cookieParser = require('cookie-parser');
 // const logger = require('morgan');
+
+// We need this to build our post string
+var querystring = require('querystring');
+
 
 // config
 app.set('view engine', 'pug');
@@ -24,11 +30,16 @@ app.set('views', './views');
 
 // middleware
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.urlencoded({extended: false }));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', router, );
+// app.use('/', learn_readline);
 app.use('/', connect_db);
 
+app.post('/quotes', (req, res) => {
+	console.log(req.body);
+});
+
 app.listen(port, function(){
-	console.log(`Server running port ${port}`);
+  console.log(`Server running port ${port}`);
 });
