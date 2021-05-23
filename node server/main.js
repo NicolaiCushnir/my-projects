@@ -1,4 +1,4 @@
-	
+const silent = 'test' == process.env.NODE_ENV;
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -32,13 +32,71 @@ app.set('views', './views');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use('/', router, );
-// app.use('/', learn_readline);
+app.use('/', router);
 app.use('/', connect_db);
 
 app.post('/quotes', (req, res) => {
 	console.log(req.body);
+	res.redirect("/crud");
 });
+
+/* Begin Middleware */
+function middleware(){};
+
+var stack = middleware(function(req, res, next) {
+    users.getAll(function(err, users) {
+        if (err) next(err);
+        req.users = users;
+        next();  
+    });
+}, function(req, res, next) {
+    posts.getAll(function(err, posts) {
+        if (err) next(err);
+        req.posts = posts;
+        next();
+    })
+}, function(req, res, next) {
+    req.posts.forEach(function(post) {
+        post.user = req.users[post.userId];
+    });
+
+    res.render("blog/posts", {
+        "posts": req.posts
+    });
+});
+
+app.get("/posts", function(req, res) {
+   stack.handle(req, res); 
+});
+
+app.get("/posts", [
+    function(req, res, next) {
+        users.getAll(function(err, users) {
+            if (err) next(err);
+            req.users = users;
+            next();  
+        });
+    }, function(req, res, next) {
+        posts.getAll(function(err, posts) {
+            if (err) next(err);
+            req.posts = posts;
+            next();
+        })
+    }, function(req, res, next) {
+        req.posts.forEach(function(post) {
+            post.user = req.users[post.userId];
+        });
+
+        res.render("blog/posts", {
+            "posts": req.posts
+        });
+    }
+], function(req, res) {
+   stack.handle(req, res); 
+});
+/* End middleware */
+
+
 
 app.listen(port, function(){
   console.log(`Server running port ${port}`);
