@@ -1,12 +1,14 @@
 ![node](public/img/node.png)
 
-### Connect to Server
-For you can work and run script. You have need to download [Node.js](https://nodejs.org/en/). It comes with `npm`. 
-if you have not installed `nodemon` then `sudo npm install -g` or `npm install --save`.
+### What i have Now.
+* In this repository is still in chaos and destruction. But now I'm working on it on it.
+* horrible front-end
+* back-end, nothing exists there.
+* In short, everything is terrible.
 
-* First thing clone this repository in your computer.
-* go to folder with root project `learn-node`. 
-* write `nodemon index.js` 
-* Open your favorite browser and put the link `http://localhost:4444`
+### Tasks project development
+* Make a good interface
+* Take all the important information from tutorial-online which is on the Gitlab. and ` do parsing` with him help, and put on a real site. That is, this project that I am working on will be a real site.
 
-This project is still under development.
+### About this repository. What i want to do.
+I want to make a website for myself to learn programming. And the code that I write I will put here because so as not to forget it.
