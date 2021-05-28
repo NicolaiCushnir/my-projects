@@ -16,140 +16,34 @@
 }
 
 body {
-	/*background-image: var(--main-background-image);*/
-	background-image: #eee;
-	background-color: rgb(250, 250, 250);
+	background-image: var(--main-background-image);
+	background-color: rgb(125, 125, 125);
 	background-repeat: no-repeat;
   	background-position: top;
 	letter-spacing: 1px;
-	width: 100%;
+}
+
+.wf-loading body {
+	visibility: hidden;
 }
 
 .header {
-	background-color: var(--main-background);
+	background-color: red;
 	width: 100%;
 	height: 50px;
 	box-shadow: 0px 0.5px 3px #ccc;
-}
-
-.left-header {
-	float: left;
-	width: calc(50% - 400px);
-	height: 100%;
-}
-
-.align-left-header {
-
-}
-
-#name-of-the-site a {
-	text-decoration: none;
-	float: left;
-}
-
-#left-chapters {
-	cursor: pointer;
-	background: white;
-	width: 240px;
-	position: relative;
-	top: 42px;
-	left: 10px;
-}
-
-ul {
-	list-style: none;
-}
-
-.chapter-x {
-	background: rgb(240, 0, 240);
-	font-family: var(--grandstander);
-	font-size: 28px;
-	line-height: 30px;
-	padding: 2px 0px 2px 0px;
-	/*border-bottom: 1px solid #000;*/
-	margin-bottom: 3px;
-}
-
-.chapter-x:hover {
-	background: green;
-}
-
-a {
-	width: 200px;
-	color: green;
-	text-decoration: none;
-}
-
-a:hover {
-	color: white;
-}
-
-.align-chapter-x {
-	padding: 0px 0px 0px 5px;
-}
-
-.middle-header {
-	background-color: rgb(250, 235, 250);
-	float: left;
-	width: 800px;
-	height: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
 	align-items: center;
 }
 
-.align-middle-header {
-	background: #f00;
-	width: 800px;
-	height: 50px;
-}
-
-.search-form {
-	margin: 0px 10px 0px 0px;
-}
-
-#search {
-	padding: 5px 6px 6px 6px;
-	border: 1px solid red;
-	margin-top: -1.4px;
-	cursor: pointer;
-}
-
-.menu-middle-header a {
-	width: 100%;
+.left-header {
+	background: white;
+	width: 300px;
 	height: 100%;
-	padding: 0px;
-	margin: 0px;
-	text-decoration: none;
-	color: var(--color-text-button);
-	padding: 4px 10px 5px 10px;
-	/*padding: 0px 0px 0px 0px;*/
-	border: 1px solid #0f0;
-}
-
-.menu-middle-header {
-	width: 100px;
-	height: 20px;
-}
-
-.menu-middle-header a:hover {
-	background: var(--color-text-button);
-	color: purple;
-	border: 1px solid green;
-}
-
-#sign-in-color a {
-	background-color: var(--sign-up-button);
-	color: var(--main-background);
-	border: 1px solid black;
-}
-
-.right-header {
-	background-color: var(--main-background);
-	float: right;
-	width: calc(50% - 400px);
-	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #name-of-the-site {
@@ -157,4 +51,17 @@ a:hover {
 	cursor: pointer;
 }
 
+.middle-header {
+	background-color: purple;
+	width: 800px;
+	height: 100%;
+	margin: auto;
+
+}
+
+.right-header {
+	background-color: green;
+	width: 300px;
+	height: 100%;
+}
 
