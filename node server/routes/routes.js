@@ -18,6 +18,10 @@ router.get('/CSS3', function (req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/CSS3.html'));
 });
 
+router.get('/JADE', function (req, res){
+	res.sendFile(path.join(__dirname, '../public', '/html/JADE.html'));
+});
+
 router.get('/SASS', function (req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/SASS.html'));
 });
