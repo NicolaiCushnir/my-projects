@@ -112,8 +112,9 @@ body {
 
 #link-a-tutorial-online {
 	color: white;
-	font-family: 'Yomogi', cursive;
 	text-decoration: none;
+	font-family: Arial;
+	font-size: 17px;
 }
 
 .middle-block {
@@ -241,10 +242,6 @@ body {
 	margin: 0px auto 0px auto;
 }
 
-/*a {
-	text-decoration: none;
-}*/
-
 .stack-section {
 	margin: 10px 10px 10px 10px;
 	text-align: justify;
@@ -255,6 +252,10 @@ body {
 
 .zaraza {
 	margin: 10px 10px 10px 10px;
+	font-size: 17px;
+	line-height: 26px;
+	height: 160px;
+	overflow: hidden;
 }
 
 .link-stack-technology {
