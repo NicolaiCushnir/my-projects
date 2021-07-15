@@ -17,8 +17,13 @@
 
     <!-- Bellow will conect all stylesheets -->
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/sign_in.js"></script>
 </head>
 <body>
+    <div id="logger">
+        <span><a href="http://localhost:5555/sign_up">Sign In</a></span>
+        <span>here will be login ...</span>
+    </div>
     <div class="header">
         <div class="left-block">
             <div class="circle-three-lines" onclick="ShowMenu();">
@@ -48,8 +53,9 @@
                     <a class="color-two-links" href="http://localhost:5555/forum">Forum</a>
                 </div>
             </div>
-            <div id ="sign-in-color" class="menu-middle-header-2">
-                <a href="http://localhost:5555/sign_up">Sign In</a>
+            <div id ="sign-in-color" class="menu-middle-header-2">                            
+                <button onclick="sign_in()">Click me</button>
+                <p id="demo"></p>
             </div>
         </div>
         <div class="right-block"></div>
