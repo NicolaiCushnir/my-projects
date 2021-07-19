@@ -102,7 +102,6 @@ body {
 	color: white;
 	padding: 5px 5px 3px 5px;
 	border-radius: 10px;
-	font-family: 'Arial';
 	font-size: 16px;
 	letter-spacing: 1px;
 	display: flex;
@@ -120,8 +119,7 @@ body {
 #link-a-tutorial-online {
 	color: white;
 	text-decoration: none;
-	font-family: Arial;
-	font-size: 17px;
+	font-family: 'Grandstander', cursive;
 }
 
 .middle-block {
@@ -154,7 +152,6 @@ body {
 
 .ul-flex-left-chapters {
 	cursor: pointer;
-	
 }
 
 .li-chpater-x {}
@@ -178,7 +175,6 @@ body {
 	display: inline-block;
 	margin: 0px 0px 2px 0px;
     padding: 4px 0px 2px 6px;
-
 }
 
 .search-form {
@@ -205,7 +201,6 @@ body {
 }
 
 .two-menu-middle-header {
-	/*background: rgb(255, 170, 255);*/
 	width: 45%;
 	height: 100%;
 	display: flex;
@@ -217,27 +212,40 @@ body {
 .menu-middle-header {
 	background: auto;
 	width: 100px;
-	/*margin: 0px 1px 0px 1px;*/
-	font-size: 18px;
-	font-size: 21px;
+	margin: 0px 15px 0px 15px;
+	font-size: 19px;
 }
 
 .color-two-links {
-	color: blue;
+	background: rgb(80, 200, 80);
+	color: white;
+	text-decoration: none;
+	padding: 4px 15px 6px 15px;
+	border-radius: 30px;
+	text-shadow: 0px 1px #000;
+	letter-spacing: 1px;
+	border: 1px solid #000;
 }
 
 .menu-middle-header:hover a {
-	color: green;
+	color: none;
+	background: green; 
 }
 
-#sign-in-color {
-	background: yellow;
-	font-size: 21px;
-	padding: 4px 12px 4px 10px;
+#sign-in-color {}
+
+#sorry {
+	background: rgb(80, 200, 180);
+	color: white;
 	border: 1px solid #000;
-	font-family: "verdana";
-	position: relative;
-	left: 20px;
+	padding: 5px 12px 6px 12px;
+	font-size: 15px;
+	font-family: Verdana;
+	margin: 0px 0px 0px 30px;
+	font-family:;
+	cursor: pointer;
+	text-shadow: 0px 1px #000;
+	letter-spacing: 1px;
 }
 
 /* * * Y E A H    S I G N * * */
