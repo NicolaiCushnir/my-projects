@@ -7,15 +7,17 @@ body {
 	box-sizing: border-box;
 	background: white;
 	width: 100%;
-	font-family: 'Verdana';
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header {
-	background: rgb(105, 0, 25);
+	background: rgb(240, 240, 240);
 	width: 100%;
 	height: 30px;
 	padding: 10px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
+	box-shadow: 0px 1px 5px black;
 }
 
 .align-header {
@@ -25,17 +27,9 @@ body {
 	margin: auto;
 }
 
-#wellcome-blog {
-	color: white;
-}
-
 #link-main-at-page {
 	text-decoration: none;
-	color: rgb(220, 220, 220);
-	text-shadow: 0px 2px 0px black;
-	letter-spacing: 1px;
-}
+	color: purple;
+	font-size: 25px;
 
-#link-main-at-page:hover {
-	color: rgb(100, 100, 0);
 }
