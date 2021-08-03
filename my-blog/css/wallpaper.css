@@ -1,0 +1,30 @@
+
+.wallpaper {
+	background: auto;
+	width: 800px;
+	min-height: 1200px;
+	margin: auto;
+}
+
+.name-at-article {
+	background: rgb(240, 240, 240);
+	padding: 6px 10px 6px 10px;
+}
+
+.post {
+	border: 1px solid black;
+	background: white;
+	width: 100%;
+	height: 160px;
+	margin: 10px 0px 10px 0px;
+	text-align: justify;
+	padding: ;
+}
+
+.mini-description {
+	padding: 10px 10px 10px 10px;
+}
+
+#read-more {
+	padding: 0px 10px 0px 10px;
+}

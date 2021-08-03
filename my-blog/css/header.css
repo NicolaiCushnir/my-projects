@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	box-sizing: border-box;
+	background: white;
+	width: 100%;
+	font-family: 'Verdana';
+}
+
+.header {
+	background: rgb(105, 0, 25);
+	width: 100%;
+	height: 30px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.align-header {
+	background: auto;
+	width: 800px;
+	height: auto;
+	margin: auto;
+}
+
+#wellcome-blog {
+	color: white;
+}
+
+#link-main-at-page {
+	text-decoration: none;
+	color: rgb(220, 220, 220);
+	text-shadow: 0px 2px 0px black;
+	letter-spacing: 1px;
+}
+
+#link-main-at-page:hover {
+	color: rgb(100, 100, 0);
+}
