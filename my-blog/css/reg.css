@@ -1,0 +1,74 @@
+
+:root {
+	--beautiful-blue: rgb(55, 55, 70);
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-position: top;
+	font-family: 'Roboto', sans-serif;
+}
+
+.reg_wall {
+	background-color: white;
+	width: 600px;
+	height: 510px;
+	margin: 0px auto 0px auto;
+	border: 1px solid #000;
+}
+
+.head-at-reg {
+	background: white;
+	width: 600px;
+	height: 30px;
+	margin: 10px auto 10px auto;
+	border: 1px solid #000;
+}
+
+.head-at-reg-left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.head-at-reg-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.basement {
+	background: white;
+	color: yellow;
+	width: 600px;
+	height: 50px;
+	margin: 10px auto 10px auto;
+	border: 1px solid #000;
+}
+
+.zaraza {
+	font-size: 19px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: rgb(0, 180, 0);
+}
+
+.zaraza:hover {
+	color: purple;
+}
+
+.reg-form {}
