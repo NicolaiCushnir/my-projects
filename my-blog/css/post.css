@@ -5,11 +5,19 @@
 }
 
 body {
-	background: white;
+	background: rgb(245, 245, 245);
 	box-sizing: border-box;
 	width: 100%;
 	letter-spacing: 1px;
 	font-family: 'Roboto', sans-serif;
+}
+
+.nat {
+	background: white;
+	max-width: 800px;
+	height: 30px;
+	border: 1px solid #ccc;
+	padding: 15px 20px 10px 20px;
 }
 
 .header {
@@ -32,27 +40,22 @@ body {
 	float: left;
 	text-decoration: none;
 	color: purple;
-	font-size: 25px;
+	font-size: 24px;
 }
 
 .right-circle-user {
 	width: auto;
 	height: auto;
 	float: right;
-} 
+}
 
 #circle_profile {
 	background: rgb(0, 180, 0);
-	padding: 5px 17px 5px 17px;
 	border: 1px solid #000;
-	position: relative;
-	top: 2px;
-	right: -2px;
-	letter-spacing: 1px;
 }
 
 #circle_profile a {
-	color:  white;
+	color: white;
 	text-decoration: none;
 }
 
@@ -65,31 +68,33 @@ body {
 
 .bg-name-at-article {
 	background: rgb(245, 245, 245);
-	padding: 6px 10px 6px 10px;
 }
 
 #name-at-article {
 	font-size: 21px;
 	color: rgb(0, 180, 0);
 	text-decoration: none;
-	padding: 0px 0px 0px 10px;
 }
 
 .post {
 	display: inline-block;
-	border: 1px solid black;
+	border: 1px solid #ccc;
 	background: white;
-	width: 100%;
+	max-width: 800px;
+	min-height: 280px;
 	height: auto;
+	max-height: auto;
 	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 5px 10px;
 	text-align: justify;
 }
 
 .mini-description {
-	padding: 4px 10px 10px 10px;
-	font-size: 18px;
-	letter-spacing: 1px;
-	line-height: 30px;
+	padding: 8px 20px 10px 20px;
+	font-size: 22px;
+	letter-spacing: 1x;
+	line-height: 35px;
+	font-family: 'Verdana'
 }
 
 .lower-mini-description {
@@ -99,44 +104,58 @@ body {
 	float: right;
 }
 
-.all-comments {
+.center-all-comments {
 	width: 800px;
-	min-height: 300px;
-	margin: 0px auto 0px auto;
-	/*border: 1px solid #000;*/
+	margin: auto;
+}
+
+.all-comments {
+	background: white;
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	margin: 10px auto 10px auto;
+	/*padding: 20px 30px 10px 20px;*/
+	border: 1px solid #ccc;
 }
 
 .left-user-block {
-	/*background: lightgreen;*/
+	background: auto;
 	width: 100px;
 	height: 100px;
 	float: left;
+	margin: 30px 30px 30px 30px;
+	border-radius: 50%;
 }
 
 .circle {
 	display: inline-block;
-	background: red;
-	width: 100px;
-	height: 100px;
+	background: auto;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 
 .right-user-block {
-	width: 680px;
-	line-height: 30px;
-	padding: 0px 10px 0px 10px;
+	display: inline-block;
+	/*background: lightslategray;*/
+	padding: 0px 30px 20px 0px;
+	color: rgb(70, 70, 70);
+	width: 610px;
+	line-height: 26px;
 	height: auto;
 	float: right;
 	text-align: justify;
-
+	font-size: 18px;
 }
 
 .name-at-user {
+	/*background: #000;*/
 	display: inline-block;
-	padding: 10px 0px 0px 10px;
-	width: 690px;
-	height: 30px;
-	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 300px;
+	height: 20px;
+	margin: 30px 0px 0px 0px;
 }
 
 .the-comment {
@@ -147,3 +166,21 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+.users-comments {
+	background: white;
+	height: auto;
+	width: 740px;
+	margin: auto auto auto auto;
+	padding: 6px 30px 6px 30px;
+	border: 1px solid #ccc;
+}
+
+.basement {
+	background: gold;
+	height: 50px;
+	width: 800px;
+	margin: 10px auto 20px auto;
+	padding: 10px 0px 10px 0px;
+}
+
