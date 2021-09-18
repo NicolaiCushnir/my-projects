@@ -5,7 +5,7 @@
 }
 
 body {
-	background: white;
+	background: rgb(240, 240, 245);
 	box-sizing: border-box;
 	width: 100%;
 	letter-spacing: 1px;
@@ -13,12 +13,12 @@ body {
 }
 
 .header {
-	background: rgb(240, 240, 240);
+	background: rgb(80, 80, 80);
 	width: 100%;
 	height: 30px;
 	padding: 10px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
-	box-shadow: 0px 1px 5px #ccc;
+	box-shadow: 0px 1px 5px #000;
 }
 
 .align-header {
@@ -31,8 +31,10 @@ body {
 #link-main-at-page {
 	float: left;
 	text-decoration: none;
-	color: purple;
+	color: white;
 	font-size: 25px;
+	letter-spacing: 3px;
+	text-shadow: 0px 2px 1px #000;
 }
 
 .right-circle-user {
@@ -65,14 +67,16 @@ body {
 }
 
 .bg-name-at-article {
-	background: rgb(245, 245, 245);
-	padding: 6px 10px 6px 10px;
+	background: auto;
+	padding: 10px 10px 0px 10px;
 }
 
 #name-at-article {
+	display: inline-block;
 	font-size: 21px;
 	color: rgb(0, 180, 0);
 	text-decoration: none;
+	padding: 10px 20px 0px 20px;
 }
 
 #name-at-article:hover {
@@ -91,19 +95,18 @@ body {
 }
 
 .mini-description {
-	padding: 4px 10px 10px 10px;
+	padding: 10px 30px 10px 30px;
 	font-size: 18px;
 }
 
 .lower-mini-description {
 	width: auto;
 	height: auto;
-	padding: 0px 0px 0px 0px;
 	float: right;
 }
 
 .basement {
-	background: rgb(240, 240, 240);
+	background: gold;
 	height: 50px;
 	width: 800px;
 	margin: 10px auto 20px auto;

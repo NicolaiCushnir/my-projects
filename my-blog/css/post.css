@@ -21,12 +21,12 @@ body {
 }
 
 .header {
-	background: rgb(240, 240, 240);
+	background: rgb(80, 80, 80);
 	width: 100%;
 	height: 30px;
 	padding: 10px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
-	box-shadow: 0px 1px 5px #ccc;
+	box-shadow: 0px 1px 5px #000;
 }
 
 .align-header {
@@ -39,8 +39,10 @@ body {
 #link-main-at-page {
 	float: left;
 	text-decoration: none;
-	color: purple;
-	font-size: 24px;
+	color: white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	text-shadow: 0px 2px 1px #000;
 }
 
 .right-circle-user {
