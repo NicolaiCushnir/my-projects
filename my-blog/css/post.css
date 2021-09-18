@@ -5,7 +5,7 @@
 }
 
 body {
-	background: rgb(245, 245, 245);
+	background: rgb(240, 240, 245);
 	box-sizing: border-box;
 	width: 100%;
 	letter-spacing: 1px;
@@ -174,7 +174,7 @@ body {
 	height: auto;
 	width: 740px;
 	margin: auto auto auto auto;
-	padding: 6px 30px 6px 30px;
+	padding: 6px 29px 6px 29px;
 	border: 1px solid #ccc;
 }
 
@@ -186,3 +186,8 @@ body {
 	padding: 10px 0px 10px 0px;
 }
 
+#my-textarea {
+	width: 799px;
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+}

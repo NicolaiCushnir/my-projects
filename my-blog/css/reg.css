@@ -57,27 +57,12 @@ body {
 }
 
 .head-at-reg-left {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	float: left;
-	width: 50%;
-	height: 100%;
-}
-
-.head-at-reg-right {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	float: right;
 	width: 50%;
 	height: 100%;
 }
 
 .basement {
-	background: white;
+	background: gold;
 	color: yellow;
 	width: 600px;
 	height: 50px;
@@ -85,15 +70,10 @@ body {
 	border: 1px solid #000;
 }
 
-.zaraza {
-	font-size: 19px;
-	letter-spacing: 1px;
-	text-decoration: none;
+#title-at-registration {
+	margin-top: 3px;
 	color: rgb(0, 180, 0);
-}
-
-.zaraza:hover {
-	color: purple;
+	letter-spacing: 1px;
 }
 
 .reg-form {}

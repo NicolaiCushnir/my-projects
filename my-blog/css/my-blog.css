@@ -100,6 +100,7 @@ body {
 }
 
 .lower-mini-description {
+	padding: 10px 0px 10px 0px;
 	width: auto;
 	height: auto;
 	float: right;
@@ -111,6 +112,7 @@ body {
 	width: 800px;
 	margin: 10px auto 20px auto;
 	padding: 10px 0px 10px 0px;
+	border: 1px solid black;
 }
 
 a {
