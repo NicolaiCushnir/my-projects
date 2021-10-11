@@ -9,6 +9,7 @@
 }
 
 body {
+	background-color: rgb(240, 240, 245);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
  	background-position: top;
@@ -42,7 +43,7 @@ body {
 
 .reg_wall {
 	background-color: white;
-	width: 600px;
+	width: 800px;
 	height: 510px;
 	margin: 0px auto 0px auto;
 	border: 1px solid #000;
@@ -50,7 +51,7 @@ body {
 
 .head-at-reg {
 	background: white;
-	width: 600px;
+	width: 800px;
 	height: 30px;
 	margin: 10px auto 10px auto;
 	border: 1px solid #000;
@@ -61,19 +62,85 @@ body {
 	height: 100%;
 }
 
-.basement {
-	background: gold;
-	color: yellow;
-	width: 600px;
-	height: 50px;
-	margin: 10px auto 10px auto;
-	border: 1px solid #000;
-}
-
 #title-at-registration {
 	margin-top: 3px;
 	color: rgb(0, 180, 0);
 	letter-spacing: 1px;
 }
 
-.reg-form {}
+.reg-form {
+	width: 400px;
+	height: 500px;
+	background: pink;
+	margin: auto;
+}
+
+.wp_test {
+	background: white;
+	width: var(--width-block);
+	height: 1200px;
+	margin: 0px auto 0px auto;
+}
+
+.nav-wrap {
+	background: red;
+	width: 800px;
+	height: auto;
+	margin: auto;
+}
+
+.wrapper {
+  background-color: white;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.form-row {
+	width: 600px;
+	display: flex;
+	justify-content: flex-end;
+	padding: .6em;
+}
+
+.form-row > label {
+	padding: .5em 1em .5em 0;
+	padding: 14px 0px 14px 0px;
+	flex: 1;
+}
+
+.form-row > input {
+	flex: 2;
+}
+
+.form-row > input,
+.form-row > button {
+	padding: .5em;
+	font-size: 17px;
+}
+
+.form-row > button {
+  background: green;
+  color: white;
+  border: 0 solid #000;
+  position: relative;
+  left: -267px;
+  padding: 10px 40px 10px 40px;
+  letter-spacing: 1px;
+  font-size: 19px;
+  text-shadow: 0px 1px 0px black;
+}
+
+#align-form-row-right {
+	position: relative;
+	left: 203px;
+}
+
+.basement {
+	background: gold;
+	color: yellow;
+	width: 800px;
+	height: 50px;
+	margin: 10px auto 10px auto;
+	border: 1px solid black;
+}
