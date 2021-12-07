@@ -1,12 +1,73 @@
+<!-- Here is file : NODE_JS.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"> <title>Tutorial Online</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tutorial Online</title>
+	<link rel="stylesheet" href="../css/NODE_JS.css" media="screen" charset="utf-8">
+	<link rel="icon" type="image" href="../img/icon.png">
+	<!-- Bellow is icons from https://iconify.design/icon-sets/logos/+++-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- Bellow is icons from Font Awesome: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bellow will conect all stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/sign_in.js"></script>
 </head>
 <body>
-	<a style="color: blue;" href="http://localhost:5555">return main page</a>
-	<h1>Here will be Node.js tutorial ...</h1>
+	<div class="header">
+        <div class="left-block">
+            <div class="circle-three-lines" onclick="ShowMenu();">
+                <div class="circle-line-1"></div>
+                <div class="circle-line-2"></div>
+                <div class="circle-line-3"></div>    
+            </div>
+
+            <h1 id="name-of-the-site">
+                <div id="tutorial-online"><a id="link-a-tutorial-online" href="http://localhost:5555/">Tutorial Online</a></div>
+            </h1>
+        </div>
+        <div class="middle-block">
+            <form class="search-form" action="#">
+                <input class="input-text" type="text" placeholder="Search">
+                <button id="search-button">Search</button>
+            </form>
+                <!-- treb sa schimb in loc de 5555 sa fie port(automat) -->
+
+                <!-- In plus de ce am pus multe menu-middle-header? -->
+                <!-- sau in loc de menu middle header sa fie a class="?" -->
+            <div class="two-menu-middle-header">                
+                <div class="menu-middle-header">
+                    <a class="color-two-links" href="http://localhost:5555/catalog">Catalog</a>
+                </div>
+                <div class="menu-middle-header">
+                    <a class="color-two-links" href="http://localhost:5555/forum">Forum</a>
+                </div>
+            </div>
+            <div id ="sign-in-color" class="menu-middle-header-2">                            
+                <button id="sorry" onclick="sign_in()">Sign In</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+        <div class="right-block"></div>
+    </div>
+    <div class="wallpaper">
+        <h2>Here will be Node Documentation</h2>
+
+        <br /><p style="text-align: justify; letter-spacing: 1px; font-size: 17px;"><b>Description</b> : Va fi o documentatie deplina comparativ cu saitul oficial care nu are o documentatie deplina. De aceia am decis aici sa fie aici o documentatie deplina... Dar idea principala consta ca vreau sa fac siteuri cu ajutorul la Node.js inclusiv site tutorial si my-blog.</p> <br />
+
+        <h2>Node.js v16.13.1 documentation</h2>
+        <ul style="padding: 0px 0px 0px 20px;">
+            <li>console</li>
+            <li>fs</li>
+            <li>debugger</li>
+            <li>Errors</li>
+            <li>Repl</li>
+        </ul>
+    </div>
+
 </body>
 </html>

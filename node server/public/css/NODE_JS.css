@@ -1,35 +1,3 @@
-* {
-	padding: 0px;
-	margin: 0px;
-}
-
-:root {
-	--black-grey: #333;
-	--main-background-image: url("../img/tsukiko-neko-cute_kaw.jpg");
-	--grandstander: 'Grandstander', cursive;
-	--main-background: rgb(255, 255, 255);
-	--sign-up-button: red; 
-	--name-of-the-site: rgb(100, 210, 100);
-	--the-color-block: #222;
-	--color-text-button: blue;
-	--f_font-family: 'Inconsolata', monospace;
-	--white-bg-color: white;
-	--light_green: rgb(100, 200, 100);
-}
-
-body {
-	background: rgb(220, 220, 220);
-	font-display: block;
-	font-family: "verdana";
-	box-sizing: border-box;
-}
-
-#logger {
-	display: none;
-	background: rgb(240, 240, 240);
-	width: 100%;
-	height: 30px;
-}
 
 .header {
 	background: white;
@@ -109,9 +77,12 @@ body {
 	cursor: pointer;
 	text-shadow: 0px 1px 1px black;
 	border: 1px solid rgb(0, 100, 0);
+
 }
 
-#tutorial-online {}
+#tutorial-online {
+
+}
 
 #link-a-tutorial-online {
 	color: white;
@@ -245,37 +216,6 @@ body {
 	letter-spacing: 1px;
 }
 
-/* * * Y E A H    S I G N * * */
-
 .wallpaper {
-	background: white;
-	width: 70%;
-	height: 1200px;
-	margin: 0px auto 0px auto;
-}
-
-.stack-section {
-	display: inline-block;
-	margin: 10px 10px 10px 10px;
-	text-align: justify;
-	background: rgb(250, 250, 250);
-	border: 1px solid black;
-	padding: 0px 0px 0px 0px;
-}
-
-.zaraza {
-	margin: 10px 10px 10px 10px;
-	font-size: 17px;
-	line-height: 26px;
-	height: auto;
-	overflow: hidden;
-}
-
-.link-stack-technology {
-	color: green;
-}
-
-.hyper-stack-technology {
-	font-size: 21px;
-	margin: 10px 0px 0px 10px;
+	padding: 10px;
 }
