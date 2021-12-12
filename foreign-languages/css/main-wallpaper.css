@@ -1,0 +1,53 @@
+/* Here is file main-wallpaper.css */
+
+#wallpaper {
+	background: white;
+	width: 760px;
+	height: auto;
+	margin: 4px auto 4px auto;
+	line-height: 24px;
+	padding-bottom: 14px;
+}
+
+ul {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#list-of-topics {
+	display: inline-block;
+	background: green;
+	color: white;
+	text-shadow: 0px 1px 2px black;
+	width: 410px;
+	padding: 10px;
+	letter-spacing: 3px;
+	text-align: center;
+	border: 2px solid black;
+	margin: 10px auto 10px auto;
+	position: relative;
+	left: 163px;
+	font-size: 21px;
+}
+
+nav {
+	border: 2px solid black;
+	width: 430px;
+	height: auto;
+	margin: auto;
+}
+
+li {
+	background: rgb(230, 250, 230);
+	list-style: none;
+	width: 400px;
+	height: 25px;
+	border: 2px solid;
+	padding: 4px 0px 4px 6px;
+	margin: 10px;
+}
+
+li:hover {
+	color: purple;
+	background: rgb(144, 238, 144);
+}

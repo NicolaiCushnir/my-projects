@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	margin: 0px	
+}
+
+body {
+	background: auto;
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 720px;
+	height: 30px;
+	margin: 4px auto 4px auto;
+	padding: 10px 20px 10px 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+}
+
+#link {
+	color: green;
+	padding: 10px 20px 10px 20px;
+}
+
+#link:hover {
+	color: white;
+	background: green;
+	border-radius: 25px;
+	text-shadow: 2px 1px black;
+}
