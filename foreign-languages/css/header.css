@@ -1,43 +1,54 @@
 * {
+	/*box-sizing: border-box;*/
 	padding: 0px;
 	margin: 0px	
 }
 
 body {
-	background: auto;
-	font-family: 'Work Sans', sans-serif;
+	background: white;
 	letter-spacing: 1px;
+	font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 #header {
+	background: #eee;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	background: white;
-	width: 720px;
+	width: 520px;
 	height: 30px;
-	margin: 4px auto 4px auto;
-	padding: 10px 20px 10px 20px;
+	margin: 20px auto 20px auto;
+	padding: 20px 0px 20px 0px;
+	border-radius: 30px;
+	border: 2px solid black;
 }
 
 a {
-	color: black;
+	color: blue;
 	text-decoration: none;
 }
 
 a:hover {
-	color: purple;
+	color: red;
 }
 
-#link {
+.link-header {
+	background: white;
+	border-radius: 30px;
 	color: green;
-	padding: 10px 20px 10px 20px;
+	padding: 8px 19px 8px 19px;
+	margin: 0px 8px 0px 8px;
+	border: 2px solid black;
+	font-size: 22px;
+	font-family: 'Work Sans', sans-serif;
 }
 
-#link:hover {
-	color: white;
+.link-header:hover {
 	background: green;
-	border-radius: 25px;
-	text-shadow: 2px 1px black;
+	color: white;
+	border-radius: 30px;
+	text-shadow: 2px 1px 2px black;
+	font-size: 22px;
+	font-family: 'Work Sans', sans-serif;
 }
