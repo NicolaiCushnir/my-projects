@@ -2,7 +2,7 @@
 /* Here is file main-wallpaper.css */
 
 #wallpaper {
-	background: #eee;
+	background: #397f3a;
 	width: 520px;
 	height: auto;
 	margin: 0px auto 0px auto;
@@ -11,7 +11,7 @@
 }
 
 #cover-list-of-topics {
-	background: #eee;
+	background: #397f3a;
 	color: white;
 	width: 520px;
 	height: auto;
@@ -22,8 +22,8 @@
 }
 
 #list-of-topics {
-	background: white;
-	color: brown;
+	background: brown;
+	color: white;
 	width: 480px;
 	height: auto;
 	border: 2px solid black;
@@ -32,8 +32,9 @@
 	letter-spacing: 2px;
 	text-align: center;
 	margin: 0px auto 0px auto;
-	font-size: 24px;
+	font-size: 22px;
 	font-family: 'Baloo Bhaijaan 2', cursive;
+	text-shadow: 1px 2px 0px black;
 }
 
 .nav-block-zaraza {}
@@ -45,7 +46,7 @@
 }
 
 .li-block-zara {
-	background: white;
+	background: #1d1e27;
 	width: 480px;
 	height: auto;
 	margin: 14px auto 14px auto;
@@ -56,7 +57,7 @@
 
 .li-block-zara .a-link-zaraza {
 	display: block;
-	color: black;
+	color: white;
 	padding: 10px 20px 10px 20px;
 	text-align: justify;
 	text-decoration: none;

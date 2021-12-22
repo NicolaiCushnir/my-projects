@@ -11,7 +11,7 @@ body {
 }
 
 #header {
-	background: #eee;
+	background: #397f3a;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -34,21 +34,20 @@ a:hover {
 }
 
 .link-header {
-	background: white;
+	background: #1d1e27;
 	border-radius: 30px;
-	color: green;
+	color: white;
 	padding: 8px 19px 8px 19px;
 	margin: 0px 8px 0px 8px;
 	border: 2px solid black;
-	font-size: 22px;
-	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
 }
 
 .link-header:hover {
-	background: green;
-	color: white;
+	background: gold;
+	color: brown;
 	border-radius: 30px;
-	text-shadow: 2px 1px 2px black;
-	font-size: 22px;
-	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
 }
