@@ -118,6 +118,10 @@ router.get('/BASH_SCRIPTS', function(req, res){
 	res.sendFile(path.join(__dirname, '../public', '/html/BASH_SCRIPTS.html'));
 });
 
+router.get('/DEVELOPER', function(req, res) {
+	res.sendFile(path.join(__dirname, '../public', 'html/DEVELOPER.html'));
+});
+
 // router.get('/', (req, res) => res.download('./file.pdf'))
 
 // router.post('/', function(req, res){
