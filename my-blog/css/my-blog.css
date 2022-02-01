@@ -1,4 +1,9 @@
 
+:root {
+	--costum_border: 1px solid white;
+	--my_shadow_box: 0px 1px 4px black;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -18,7 +23,6 @@ body {
 	height: 30px;
 	padding: 10px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
-	box-shadow: 0px 1px 5px #000;
 }
 
 .align-header {
@@ -38,24 +42,29 @@ body {
 }
 
 .right-circle-user {
+	background: auto;
 	width: auto;
 	height: auto;
 	float: right;
 } 
 
-#circle_profile {
-	background: rgb(0, 180, 0);
-	padding: 5px 17px 5px 17px;
-	border: 1px solid #000;
+.a-link-circle-right-user {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 6px 8px 6px 12px;
 	position: relative;
-	top: 2px;
-	right: -2px;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
+	font-size: 18px;
+	top: 4px;
+	left: 1px;
 }
 
-#circle_profile a {
-	color: white;
-	text-decoration: none;
+.a-link-circle-right-user:hover {
+	background: rgb(150, 0, 20);
+	border: 1px solid orange;
+	color: orange;
+	box-shadow: 0px 0px 2px yellow;
 }
 
 .animation {
@@ -65,23 +74,19 @@ body {
 	background-size: 1200px auto;
 	width: 800px;
 	height: 340px;
-	border: 1px solid black;
+	border: var(--costum_border);
 	margin: auto auto 10px auto;
 }
-
-/*.img-animation {
-	width: 100%;
-	background-position: center;
-}*/
 
 .main-menu {
 	background: brown;
 	width: 800px;
 	height: auto;
 	margin: auto;
-	border: 1px solid #000;
+	border: var(--costum_border);
 	padding: 10px 0px 10px 0px;
 	text-align: center;
+
 }
 
 .nav-menu {}
@@ -99,7 +104,7 @@ body {
 }
 
 .a-link-main-menu:hover {
-	color: yellow;
+	color: orange;
 }
 
 .wallpaper {
@@ -107,6 +112,7 @@ body {
 	width: 800px;
 	min-height: auto;
 	margin: auto;
+
 }
 
 .bg-name-at-article {
@@ -120,6 +126,7 @@ body {
 	color: rgb(0, 180, 0);
 	text-decoration: none;
 	padding: 10px 20px 0px 20px;
+
 }
 
 #name-at-article:hover {
@@ -129,12 +136,14 @@ body {
 
 .post {
 	display: inline-block;
-	border: 1px solid black;
+	border: var(--costum_border);
 	background: white;
 	width: 100%;
 	height: auto;
 	margin: 10px 0px 10px 0px;
 	text-align: justify;
+	/*box-shadow: 0px 0px 4px black;*/
+
 }
 
 .mini-description {
@@ -149,13 +158,36 @@ body {
 	float: right;
 }
 
+.addition-information {
+	padding: 10px 0px 10px 0px;
+	height: 30px;
+	width: 100%;
+}
+
+.addition-information-1 {
+	background: green;
+	color: white;
+	text-decoration: none; 
+	padding: 8px 14px 8px 14px;
+	float: right;
+	margin-right: 10px;
+}
+
+.addition-information-2 {
+	background: orange;
+	color: white;
+	text-decoration: none; 
+	padding: 8px 14px 8px 14px;
+	float: right;
+}
+
 .basement {
 	background: gold;
 	height: 50px;
 	width: 800px;
 	margin: 10px auto 20px auto;
 	padding: 10px 0px 10px 0px;
-	border: 1px solid black;
+	border: var(--costum_border	);
 }
 
 a {
