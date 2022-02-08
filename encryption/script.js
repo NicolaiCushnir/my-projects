@@ -102,3 +102,4 @@ function decrypt() {
     document.getElementById("resultat").innerHTML = "invalid key";
     return;
 }
+

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"> <title>Document</title>
+  <meta charset="UTF-8"> <title>encryption</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+
 </head>
 <body>
-  <div class="main-container">
+  <div class="container">
     <div class="header">
-      <p class="choose-the-key">Choose the key : </p>
+      <p class="align-block"> <span class="k">The key: </span>
 
       <select name="a1" id="cheia">
           <option>1</option>
@@ -38,26 +40,26 @@
           <option>25</option>
         </select>
 
-      <button class="cript" id="criptare" onclick="crypt()">encryption</button>
-      <button class="decript" id="decriptare" onclick="decrypt()">decryption</button>
-      <input id = "search" type="text" placeholder="search"> 
+      <button class="cript" id="criptare" onclick="crypt();">encryption</button>
+      <button class="decript" id="decriptare" onclick="decrypt();">decryption</button>
+      <input id ="search" type="text" placeholder="search"> 
     </div>
 
     <div class="text-area">
           <textarea class="text" name="name" rows="" cols="" id="mesaj"></textarea>
     </div>
 
-    <div class="footer">
-      <p class="show-result" id="resultat">
-      <b>
-        Here will be your result ... <br />
+       <p class="show-result" id="resultat">
+<!--       <p> Here will be your result ... <br />
         1. Firstly, you must write a text inside textarea<br />
         2. Secondly, you must copy the message who you wrote and pressed the button encrypted
         3. This encrypted text you can decryption.
-      </b>.
+      </p>. -->
       </p>
     </div>
-  </div>
-  <script src="script.js"></script>
+  
 </body>
+<footer>
+    <div class="footer"></div>
+</footer>
 </html>
