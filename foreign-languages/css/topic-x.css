@@ -1,0 +1,16 @@
+.topic-x {
+	background: white;
+	color: var(--specialgreen);
+	width: 760px;
+	height: auto;
+	margin: auto auto auto auto;
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+#h2-under-topic-x {
+	font-size: 22px;
+	letter-spacing: 4px;
+}
+

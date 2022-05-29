@@ -1,0 +1,12 @@
+.animation {
+	background: white;
+	width: 800px;
+	height: 300px;
+	margin: 20px auto 20px auto;
+	border: 1px solid black;
+}
+
+#img-animation {
+	width: auto;
+	height: 100%;
+}
