@@ -10,7 +10,7 @@
 
 body {
 	background: #eee;
-	font-family: 'Baloo Bhaijaan 2', cursive
+	font-family: "Verdana";
 }
 
 .nav-header-menu {}
@@ -20,10 +20,9 @@ body {
 	width: 800px;
 	height: auto;
 	font-size: 24px;
-	margin: 20px auto 20px auto;
+	margin: 10px auto 10px auto;
 	padding: 10px 0px 10px 0px;
 	text-align: center;
-	border: 1px solid black;
 	text-shadow: 2px 1px 1px black;
 
 }
@@ -37,7 +36,6 @@ body {
 .a-link-header-menu {
 	color: white;
 	text-decoration: none;
-	letter-spacing: 2px;
 }
 
 .a-link-header-menu:hover {

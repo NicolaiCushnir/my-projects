@@ -1,6 +1,6 @@
 
 .basement {
-	background-color: #111;
+	background-color: white;
 	width: 800px;
 	height: auto;
 	margin: 10px auto 10px auto;
@@ -22,10 +22,10 @@
 
 .a-link-basement {
 	text-decoration: none;
-	color: green;
+	color: grey;
 	padding-right: 20px;
 }
 
 .a-link-basement:hover {
-	color: gold;
+	color: black;
 }
