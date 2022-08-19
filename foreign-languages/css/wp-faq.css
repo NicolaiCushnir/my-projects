@@ -1,0 +1,27 @@
+
+.wp-faq {
+	background: white;
+	width: 540px;
+	height: auto;
+	margin: 10px auto 10px auto;
+	padding: 10px 30px 10px 30px;
+}
+
+#topic-at-faq {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-family: "Arial"
+}
+
+#paragraph-faq-1 {
+	padding: 10px 0px 0px 0px;
+}
+
+.nav-vertical-menu {
+	background: white;
+	padding: 0px 0px 20px 30px;
+}
+
+#paragraph-faq-2 {
+	padding: 0px 0px 0px 0px;
+}
