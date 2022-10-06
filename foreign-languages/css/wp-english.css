@@ -3,7 +3,7 @@
 
 .nav-vertical-menu {
 	background: auto;
-	width: 800px;
+	width: 600px;
 	height: auto;
 	margin: auto;
 }
@@ -21,7 +21,7 @@
 	cursor: pointer;
 	width: auto;
 	height: 30px;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid black;
 	margin-bottom: 10px;
 	transition: width 1s;
@@ -32,14 +32,19 @@
 	background: auto;
 	text-decoration: none;
 	font-size: 24px;
-	color: blue;
+	color: black;
 }
 
 .li-vertical-menu:hover {
-	background: red;
+	background: #1d1e27;
 }
 
 .li-vertical-menu:hover .a-link-vertical-menu {
-	color: yellow;
+	color: white;
+	text-shadow: 2px 1px 0px black;
+}
+
+.addition-li-vertical-menu {
+	background: rgb(220, 220, 220);
 }
 

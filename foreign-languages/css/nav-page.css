@@ -1,0 +1,30 @@
+
+.navigation-pages {
+	background: white;
+	width: 600px;
+	height: auto;
+	margin: auto auto 10px auto;
+	border: 1px solid black;
+}
+
+.nav-page {
+	width: auto;
+	height: auto;
+	padding: 5px 0px 7px 0px;	
+}
+
+.ul-nav-page {}
+
+.li-nav-page {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.a-link-nav-page {
+	text-decoration: none;
+	/*padding-left: 20px;*/
+}
+
+.a-link-nav-page:hover {
+	text-decoration: underline;
+}
