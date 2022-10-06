@@ -23,7 +23,6 @@ const learn_readline = require('./tests/learn_readline.js');
 // We need this to build our post string
 var querystring = require('querystring');
 
-
 // config
 app.set('view engine', 'pug');
 app.set('views', './views');
