@@ -15,29 +15,32 @@
 }
 
 .li-vertical-menu {
-	background: rgb(40, 40, 50);
+	background: white;
 	cursor: pointer;
 	width: auto;
 	height: 30px;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid black;
 	margin-bottom: 10px;
 }
 
+.addition-li-vertical-menu {
+	background: rgb(210, 210, 210);
+}
+
 .a-link-vertical-menu {
-	background: auto;
 	text-decoration: none;
 	font-size: 24px;
-	color: white;
+	color: black;
 
 }
 
 .li-vertical-menu:hover {
-	background: orange;
+	background: #222;
 }
 
 .li-vertical-menu:hover .a-link-vertical-menu {
-	color: brown;
+	color: white;
 }
 
 

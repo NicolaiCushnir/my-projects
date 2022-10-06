@@ -1,6 +1,9 @@
 :root {
-	--darkblue: #1d1e27;
+	--dark_blue_hex: #1d1e27;
 	--specialgreen: #397f3a;
+	--dark_blue_rgb: rgb(40, 40, 50);
+	--light_blue: rgb(80, 100, 110);
+	--green_color: #397f3a;
 }
 
 * {
@@ -9,20 +12,25 @@
 }
 
 body {
-	background: rgb(80, 100, 110);
+	background: #eee;
 	font-family: "Verdana";
 }
 
+a {
+	color: blue;
+}
+
 .nav-header-menu {
-	background-color: #397f3a;
+	background-color: #555;
 	width: 600px;
 	height: auto;
 	margin: 10px auto 00px auto;
+	letter-spacing: 2px;
 }
 
 .ul-header-menu {
 	font-size: 24px;
-	padding: 10px 0px 12px 0px;
+	padding: 8px 0px 10px 0px;
 	text-align: center;
 	text-shadow: 2px 1px 1px black;
 	border: 1px solid black;
@@ -32,7 +40,6 @@ body {
 .li-header-menu {
 	display: inline-block;
 	padding: 0px 10px 0px 10px;
-
 }
 
 .a-link-header-menu {
@@ -41,6 +48,7 @@ body {
 }
 
 .a-link-header-menu:hover {
-	color: yellow;
+	color: white;
 	text-shadow: none;
+	text-decoration: underline;
 } 
