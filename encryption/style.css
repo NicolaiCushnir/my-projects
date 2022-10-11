@@ -19,7 +19,7 @@ body {
 .container {
 	background: #eee;
 	width: 800px;
-	height: 282px;
+	height: auto;
 	margin: 10px auto 10px auto;
 	border: 1px solid #000;
 }
@@ -79,36 +79,64 @@ body {
 
 textarea {
 	background-color: var(--color-white);
-	margin: 10px 10px 0px 10px;
+	margin: 10px 10px 10px 10px;
 	float: left;
 	width: 754px;
 	line-height: 20px;
 	height: 100px;
-	font-size: 19px;
+	font-size: 18px;
 	padding: 5px 12px 5px 12px;
 	border: 1px solid black; 
 }
 
 .show-result {
-	color: red;
-	width: 783px;
+	background: white;
+	font-family: "verdana";
+	color: black;
+	width: 752px;
 	height: auto;
 	margin: auto;
-	font-size: 17px;
-	padding: 0px 8px 8px 8px;
-	letter-spacing: 1px;
+	font-size: 18px;
+	padding: 10px 14px 10px 12px;
+	letter-spacing: 2px;
+	border: 1px solid black;
+	margin: 0px 10px 10px 10px;
+	text-align: justify;
+	line-height: 30px;
 }
 
 .footer {
-	background: white;
+	background: #1d1e27;
+	color: gold;
 	width: 780px;
 	height: 35px;
 	margin: auto;
 	border: 1px solid black;
-	padding: 0px 10px 0px 10px;
+	padding: 2px 10px 0px 10px;
+	text-align: center;
+	text-shadow: 1px 2px 0px black;
 }
 
 li {
 	display: inline-block;
 	padding-right: 10px;
+}
+
+.d {
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 10px;
+}
+
+.m3 {
+	background: white;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid black;
+	padding: 5px 10px 5px 10px;
+	letter-spacing: 2px; 
+	line-height: 30px;
+}
+
+a {
+	color: lightblue;
+	text-decoration: none;
 }
