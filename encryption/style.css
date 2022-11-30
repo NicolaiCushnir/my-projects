@@ -12,61 +12,76 @@
 
 body {
 	background-color: var(--color-purple);
-	font-family: 'MuseoModerno', cursive;
+	font-family: "Tahoma";
 }
 
-/* main-container */
 .container {
-	background: #eee;
+	background: auto; 
 	width: 800px;
 	height: auto;
-	margin: 10px auto 10px auto;
+	margin: 0px auto 0px auto;
 	border: 1px solid #000;
 }
 
 .header {
-	background-color: var(--color-white);
+	background-color: #1d1e27;;
 	width: 780px;
 	height: 35px;
-	margin: 10px auto 0px auto;
+	margin: 0px auto 0px auto;
 	padding: 10px 0px 10px 0px;
 	border: 1px solid black;
 }
 
 .k {
 	margin: 0px 10px 0px 20px; 
+	color: lightblue;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px black;
+	position: relative;
+	top: 1px;
 }
 
 #cheia {
-	margin-right: 10px;
+	text-align: center;
+	background: #1d1e27;
+	margin: 0px 4px 0px 0px;
+	border: 1px solid black;
+	padding: 4px 0px 3px 3px;
+	height: auto;
+	color: lightblue;
+	position: relative;
+	top: 1.5px;
+	border-radius: 8px;
 }
 
 .cript {
 	cursor: pointer;
 	padding: 5px 10px 5px 10px;
 	letter-spacing: 2px;
-	color: black;
+	color: lightblue;
 	font-size: 16px;
-	background: white;
+	background: #1d1e27;
 	margin-right: 5px;
 	border: none;
 	border: 1px solid #000;
+	border-radius: 8px;
 }
 
 .decript {
-	background: white;
+	background: #1d1e27;
 	cursor: pointer;
 	letter-spacing: 2px;
-	color: black;
+	color: lightblue;
 	font-size: 16px;
 	padding: 5px 10px 5px 10px;
 	margin-right: 5px;
 	border: none;
 	border: 1px solid #000;
+	border-radius: 8px;
 }
 
 #search {
-	background-color: var(--inside-fields);
+	background-color: lightblue;
 	width: auto;
 	height: auto;
 	border: 1px solid #000;
@@ -75,12 +90,13 @@ body {
 	letter-spacing: 2px;
 	font-size: 16px;
 	margin: 0px 0px 0px 0px;
+	border-radius: 8px;
 }
 
 textarea {
 	background-color: var(--color-white);
 	margin: 10px 10px 10px 10px;
-	float: left;
+	/*float: left;*/
 	width: 754px;
 	line-height: 20px;
 	height: 100px;
@@ -123,6 +139,10 @@ li {
 }
 
 .d {
+	width: 100%;
+	height: 50px;
+	background: yellow;
+	text-align: center;
 	letter-spacing: 2px;
 	margin: 0px 0px 0px 10px;
 }
@@ -137,6 +157,10 @@ li {
 }
 
 a {
+	font-family: 'MuseoModerno', cursive;
 	color: lightblue;
 	text-decoration: none;
+}
+
+.kal {
 }
