@@ -1,0 +1,2 @@
+1. cînd scriu ceva în textarea să ducă în baza de date Postgres.
+2. Să fac utilizatori, ca cînd să scrie un mesaj în textarea (adica în comenariu) să știbă care utilizator a scris mesajul.

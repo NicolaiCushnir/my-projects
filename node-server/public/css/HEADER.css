@@ -1,0 +1,66 @@
+:root {
+	--main-background-image: url("../img/tsukiko-neko-cute_kaw.jpg");
+	--grandstander: 'Grandstander', cursive;
+	--main-background: rgb(255, 255, 255);
+	--sign-up-button: red; 
+	--name-of-the-site: rgb(0, 210, 0);
+	--the-color-block: #222;
+	--color-text-button: blue;
+	--f_font-family: 'Inconsolata', monospace;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border-radius: margin-auto;
+}
+
+body {
+	background-image: var(--main-background-image);
+	background-color: rgb(125, 125, 125);
+	background-repeat: no-repeat;
+  	background-position: top;
+	letter-spacing: 1px;
+}
+
+.wf-loading body {
+	visibility: hidden;
+}
+
+.header {
+	background-color: red;
+	width: 100%;
+	height: 50px;
+	box-shadow: 0px 0.5px 3px #ccc;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.left-header {
+	background: white;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#name-of-the-site {
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.middle-header {
+	background-color: purple;
+	width: 800px;
+	height: 100%;
+	margin: auto;
+
+}
+
+.right-header {
+	background-color: green;
+	width: 300px;
+	height: 100%;
+}

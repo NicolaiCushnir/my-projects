@@ -1,0 +1,17 @@
+.wallpaper {
+	background-color: white;
+	width: 800px;
+	min-height: 1200px;
+	margin: 10px auto 10px auto;
+	font-size: 15px;
+}
+
+#parag {
+	padding: 24px 30px 15px 30px;
+	font-family: var(--f_font-family);
+	text-align: justify;
+	color: rgb(0, 120, 155);
+	font-size: 19px;
+	line-height: 1.4;
+}
+

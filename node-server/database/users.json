@@ -1,0 +1,24 @@
+{
+	"1": {
+		"id": 1,
+		"full name": "Nicolai Cushnir",
+		"gender": "male",
+		"age": 27
+	},
+
+	"2":
+	{
+		"id": 2,
+		"full name": "Mark Tzunkerberg",
+		"gender": "male",
+		"age": 41
+	},
+
+	"3":
+	{
+		"id": 3,
+		"full name": "Lisa Smith",
+		"gender": "female",
+		"age": 32
+	}
+}
