@@ -6,4 +6,4 @@ Each folder inside repository `my-projects` is separate little projects.
 * [my-blog](https://gitlab.com/Schedule93/my-blog)
 
 ### Bitbucket Project :
-* [tutorial online](https://bitbucket.org/my-first-workspace-nicolai-cushnir/tutorial-online/src/master/)
+* [tutorial online](https://bitbucket.org/workspace-nicolai-cushnir/tutorial-online/src/master/)
