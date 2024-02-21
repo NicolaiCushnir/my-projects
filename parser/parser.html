@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Parser</title>
+</head>
+<body>
+  <input type="file" id="fileInput" accept=".json">
+  <pre id="result"></pre>
+
+  <!-- Пример на чистом JavaScript без использования Node.js -->
+  <!-- Этот пример является веб-страницей с полем для загрузки файла JSON и элементом <pre> для отображения результата парсинга. Когда пользователь выбирает файл JSON, скрипт читает содержимое файла, парсит его как JSON и отображает результат на странице.
+  -->
+  <script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const content = event.target.result;
+        
+        try {
+          const parsedData = JSON.parse(content);
+          document.getElementById('result').textContent = JSON.stringify(parsedData, null, 2);
+        } catch (error) {
+          console.error('Ошибка парсинга JSON:', error);
+        }
+      };
+
+      reader.readAsText(file);
+    });
+  </script>
+</body>
+</html>
