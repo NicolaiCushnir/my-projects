@@ -2,8 +2,12 @@
 
 Each folder inside repository `my-projects` is separate little projects.
 
-### Gitlab Project:
+### Gitlab Projects:
 * [my-blog](https://gitlab.com/Schedule93/my-blog)
+* [tutorial online](https://gitlab.com/Schedule93/tutorial-online)
+* [find-job](https://gitlab.com/Schedule93/find-job)
+* [my-cloud-nicolai](#)
+* [naruto-test](#)
 
 ### Bitbucket Project :
-* [tutorial online](https://bitbucket.org/workspace-nicolai-cushnir/tutorial-online/src/master/)
+* [none](#)
