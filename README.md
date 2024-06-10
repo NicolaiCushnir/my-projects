@@ -7,4 +7,4 @@ Each folder inside repository `my-projects` is separate little projects.
 * [tutorial online](https://gitlab.com/Schedule93/tutorial-online)
 
 ### Bitbucket Project :
-* [none](#)
+* [ERROR ENDPOINTS](https://bitbucket.org/workspace-nicolai-cushnir/web-dev/src/master/)
